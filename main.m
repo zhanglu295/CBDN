@@ -1,6 +1,6 @@
 %load gene expression data.
 %Input:
-%1. The gene expression is m*n matrix, where m is the number of genes, n is the number of samples;
+%1. The gene expression is m*n matrix, where m is the number of samples, n is the number of genes;
 %2. tolerance for removing transitive esges, large value means more noise tolerance.
 %Output:
 %1. key:important regulator,[x,y].x, index of gene;y,corresponding TIV. 
